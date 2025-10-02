@@ -1,3 +1,7 @@
+@extends('template')
+
+@section('content')
+
 <h1>EDIT</h1>
 
 @if (session()->has('message'))
@@ -15,3 +19,4 @@
     </p>
 </form>
 
+@endsection

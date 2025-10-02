@@ -1,3 +1,7 @@
+@extends('template')
+
+@section('content')
+
 <h1>Cadastro de frases</h1>
 
 @if (session()->has('message'))
@@ -14,3 +18,5 @@
         <input type="submit" value="Entrar" id="botaoEntrar">
     </p>
 </form>
+
+@endsection

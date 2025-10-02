@@ -1,12 +1,21 @@
+@extends('template')
+
+
+@section('criar')
+
+<p>
+    <a href="{{ route('names.create')}}"><img src="{{ asset('imagens/botao_criar.png') }}" alt="criar" id="botao_criar_postagem_A"></a>
+</p>
+
+@endsection
+
+@section('content')
+
 <h1>frases legais</h1>
 
 @if (session()->has('message'))
     {{ session()->get('message') }}
 @endif
-
-<p>
-    <a href="{{ route('names.create')}}">Coloque uma frase legal Ü</a>
-</p>
 
 <ul>
     @foreach ($names as $name)
@@ -23,3 +32,4 @@
     @endforeach
 </ul>
 
+@endsection
