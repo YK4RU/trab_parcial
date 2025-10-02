@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @ */
+
+@font-face {
+    font-family: Hey_Comic;
+    src: local(Hey_Comic), url(Hey_Comic.ttf);
+}
+@font-face {
+    font-family: "Hey Comic";
+    src: local("Hey Comic"), url(Hey_Comic.otf);
+}
+
+#listagem{
+    position: absolute;
+    top: 15%;
+    left: 14%;
+}
+
+/* /@ */
+
+
+body {
+    font-family: "Poetsen One", sans-serif;
+    color: #8d0000;
+    background-color: #fffef2;
+}
+
+
+#botao_criar_postagem{
+    position: absolute;
+    top: 89%;
+    left: 85%;
+
+}
+#botao_criar_postagem>button{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 100%;
+    box-shadow: 0 2px 8px #8d000021;
+    border: 0;
+    outline: 0;
+
+}
+#botao_criar_postagem_A{
+    min-width: 50px;
+    max-width: 50px;
+    max-height: 50px;
+
+    position: absolute;
+    top: 80%;
+    left: 85%;
+}
+
+
+/* ------------------ cabeçalho ------------------- */
+
+#cabecalho{
+    background-color: #FFF9BD;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#titulo{
+    font-family: Hey_Comic, sans-serif;
+    font-size: 30px;
+}
+
+#foto_perfil_e_search_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 80%;
+}
+
+#search_box{
+    background-color: #fffef2;
+    padding: 5px;
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 0 2px 8px #8d000021;
+
+    display: flex;
+    justify-content: space-between;
+}
+#search_input{
+    color: #8c0000;
+    background: none;
+    border: 0;
+    outline: 0;
+
+}
+#search_png{
+    max-width: 20px;
+}
+
+
+#foto_perfil{
+    max-width: 25px;
+    max-height: 25px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+
+#foto_perfil>button{
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 100px;
+    box-shadow: 0 2px 8px #8d000021;
+    border: 0;
+    outline: 0;
+}
+
+#perfil_A>img{
+    min-width: 25px;
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 100px;
+}
+
+/* ------------------ /cabeçalho ------------------- */
+
+/* ------------------ barra lateral ------------------- */
+
+#barra_lateral{
+    background-color: #FFF9BD;
+    max-width: 80px;
+    /* max-height: 400px;
+
+    position: fixed; */
+}
+
+.botao_barra_lateral>img{
+    max-width: 80px;
+    padding: 10px;
+}
+.botao_barra_lateral_A>img{
+    max-width: 30px;
+}
+
+#sair_A{
+    margin-top: 306px;
+}
+#sair_A>a{
+    padding: 10px;
+    color: #8c0000;
+    text-decoration: none;
+}
+
+#florzinha>img{
+    max-width: 80px;
+    transform: scaleX(-1);
+    margin-top: 230px;
+}
+
+/* ------------------ /barra lateral ------------------- */
