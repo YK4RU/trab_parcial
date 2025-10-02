@@ -74,6 +74,6 @@ class NameController extends Controller
         $name = Name::findOrFail($id);
         $deleted = $name->delete();
 
-        return redirect()->route('names.index');
+        return redirect()->route('names.index')->with('message', 'massa doido Ü');;
     }
 }
