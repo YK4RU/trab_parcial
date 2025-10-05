@@ -2,8 +2,6 @@
 
 @section('content')
 
-<h1>Cadastro de frases</h1>
-
 @if (session()->has('message'))
     {{ session()->get('message') }}
 @endif

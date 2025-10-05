@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Frase</title>
     <link rel="stylesheet" href="{{ asset('css/style_home.css') }}">
 <body>
     <header>
         <div id="cabecalho">
             <p id="titulo">
-                MÜRAL
+                Frases.com
             </p>
             <div id="foto_perfil_e_search_box">
                 <div id="search_box">
